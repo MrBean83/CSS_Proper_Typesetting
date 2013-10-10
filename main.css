@@ -16,9 +16,14 @@ small.page_no {
   color: #ddd;
 }
 
+body {
+  line-height: 20px;
+}
+
 .pagination {
   background-color: #eee;
   margin: 10px 0px;
+  font-family: sans-serif;
 }
 
 .pagination a {
@@ -28,4 +33,21 @@ small.page_no {
 
 .pagination a.disabled {
   color: #ccc;
+}
+
+header {
+  border-bottom: 2px solid #e8e8e8;
+  font-family: sans-serif;
+}
+
+h2, .footer {
+  font-family: sans-serif;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+h2, h3 {
+  padding-top: 15px;
 }
